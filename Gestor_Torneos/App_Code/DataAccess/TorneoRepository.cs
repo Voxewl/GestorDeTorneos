@@ -1,54 +1,136 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using Gestor_Torneos.Models;
+using Gestor_Torneos.Utils;
+
 namespace Gestor_Torneos.DataAccess
 {
     public class TorneoRepository
     {
-        private readonly string _connectionString;
+        private readonly string connectionString = Conexion.Cadena;
 
-        public TorneoRepository()
-        {
-            _connectionString = Conexion.Cadena;  // Usamos la clase Conexion para obtener la cadena de conexión
-        }
-
-        public List<Torneo> ObtenerTodosLosTorneos()
+        public List<Torneo> ObtenerTodos()
         {
             List<Torneo> torneos = new List<Torneo>();
 
-            using (SqlConnection connection = new SqlConnection(_connectionString))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM Torneos";
-                SqlCommand command = new SqlCommand(query, connection);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
+                string query = @"SELECT t.*, tt.Nombre AS NombreTipoTorneo
+                                 FROM Torneos t
+                                 LEFT JOIN TiposTorneo tt ON t.TipoId = tt.TipoId";
 
-                while (reader.Read())
+                SqlCommand cmd = new SqlCommand(query, conn);
+                conn.Open();
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    torneos.Add(new Torneo
+                    while (reader.Read())
                     {
-                        Id = Convert.ToInt32(reader["ID_Torneo"]),
-                        Nombre = reader["Nombre"].ToString(),
-                        Tipo = reader["Tipo"].ToString(),
-                        FechaInicio = Convert.ToDateTime(reader["FechaInicio"]),
-                        FechaFin = Convert.ToDateTime(reader["FechaFin"]),
-                    });
+                        torneos.Add(new Torneo
+                        {
+                            ID_Torneo = (int)reader["ID_Torneo"],
+                            Nombre = reader["Nombre"].ToString(),
+                            TipoId = reader["TipoId"] as int?,
+                            Descripcion = reader["Descripcion"]?.ToString(),
+                            FechaInicio = Convert.ToDateTime(reader["FechaInicio"]),
+                            FechaFin = reader["FechaFin"] as DateTime?,
+                            FechaCreacion = Convert.ToDateTime(reader["FechaCreacion"]),
+                            FechaActualiza = reader["FechaActualiza"] as DateTime?,
+                            NombreTipoTorneo = reader["NombreTipoTorneo"]?.ToString()
+                        });
+                    }
                 }
             }
 
             return torneos;
         }
 
-        public void AgregarTorneo(Torneo torneo)
+        public void Agregar(Torneo torneo)
         {
-            using (SqlConnection connection = new SqlConnection(_connectionString))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO Torneos (Nombre, Tipo, FechaInicio, FechaFin) VALUES (@Nombre, @Tipo, @FechaInicio, @FechaFin)";
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@Nombre", torneo.Nombre);
-                command.Parameters.AddWithValue("@Tipo", torneo.Tipo);
-                command.Parameters.AddWithValue("@FechaInicio", torneo.FechaInicio);
-                command.Parameters.AddWithValue("@FechaFin", torneo.FechaFin);
+                string query = @"INSERT INTO Torneos (Nombre, TipoId, Descripcion, FechaInicio, FechaFin)
+                                 VALUES (@Nombre, @TipoId, @Descripcion, @FechaInicio, @FechaFin)";
 
-                connection.Open();
-                command.ExecuteNonQuery();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Nombre", torneo.Nombre);
+                cmd.Parameters.AddWithValue("@TipoId", (object)torneo.TipoId ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@Descripcion", (object)torneo.Descripcion ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@FechaInicio", torneo.FechaInicio);
+                cmd.Parameters.AddWithValue("@FechaFin", (object)torneo.FechaFin ?? DBNull.Value);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void Actualizar(Torneo torneo)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Torneos
+                                 SET Nombre = @Nombre,
+                                     TipoId = @TipoId,
+                                     Descripcion = @Descripcion,
+                                     FechaInicio = @FechaInicio,
+                                     FechaFin = @FechaFin
+                                 WHERE ID_Torneo = @ID_Torneo";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ID_Torneo", torneo.ID_Torneo);
+                cmd.Parameters.AddWithValue("@Nombre", torneo.Nombre);
+                cmd.Parameters.AddWithValue("@TipoId", (object)torneo.TipoId ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@Descripcion", (object)torneo.Descripcion ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@FechaInicio", torneo.FechaInicio);
+                cmd.Parameters.AddWithValue("@FechaFin", (object)torneo.FechaFin ?? DBNull.Value);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public Torneo ObtenerPorId(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = @"SELECT * FROM Torneos WHERE ID_Torneo = @ID_Torneo";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ID_Torneo", id);
+
+                conn.Open();
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new Torneo
+                        {
+                            ID_Torneo = (int)reader["ID_Torneo"],
+                            Nombre = reader["Nombre"].ToString(),
+                            TipoId = reader["TipoId"] as int?,
+                            Descripcion = reader["Descripcion"]?.ToString(),
+                            FechaInicio = Convert.ToDateTime(reader["FechaInicio"]),
+                            FechaFin = reader["FechaFin"] as DateTime?,
+                            FechaCreacion = Convert.ToDateTime(reader["FechaCreacion"]),
+                            FechaActualiza = reader["FechaActualiza"] as DateTime?
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        public void Eliminar(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "DELETE FROM Torneos WHERE ID_Torneo = @ID_Torneo";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ID_Torneo", id);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
             }
         }
     }

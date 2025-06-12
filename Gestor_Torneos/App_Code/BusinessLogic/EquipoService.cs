@@ -1,25 +1,41 @@
+using System.Collections.Generic;
+using Gestor_Torneos.DataAccess;
+using Gestor_Torneos.Models;
+
 namespace Gestor_Torneos.BusinessLogic
 {
     public class EquipoService
     {
         private readonly EquipoRepository _equipoRepository;
 
-        public EquipoService(string connectionString)
+        public EquipoService()
         {
-            _equipoRepository = new EquipoRepository(connectionString);
+            _equipoRepository = new EquipoRepository();
         }
 
-        public void AgregarEquipo(Equipo equipo)
+        public List<Equipo> ObtenerTodos()
         {
-            if (equipo == null) throw new ArgumentNullException(nameof(equipo));
-            if (string.IsNullOrWhiteSpace(equipo.Nombre)) throw new ArgumentException("El nombre del equipo no puede estar vacío.");
-
-            _equipoRepository.AgregarEquipo(equipo);
+            return _equipoRepository.ObtenerTodos();
         }
 
-        public List<Torneo> ObtenerTorneos()
+        public Equipo ObtenerPorId(int id)
         {
-            return _equipoRepository.ObtenerTorneos();
+            return _equipoRepository.ObtenerPorId(id);
+        }
+
+        public void Agregar(Equipo equipo)
+        {
+            _equipoRepository.Agregar(equipo);
+        }
+
+        public void Actualizar(Equipo equipo)
+        {
+            _equipoRepository.Actualizar(equipo);
+        }
+
+        public void Eliminar(int id)
+        {
+            _equipoRepository.Eliminar(id);
         }
     }
 }
