@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Gestor_Torneos</RootNamespace>
     <AssemblyName>Gestor_Torneos</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44381</IISExpressSSLPort>
@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,10 +56,8 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -84,6 +83,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -249,6 +249,7 @@
     <Content Include="Vistas\AgregarEquipo.aspx" />
     <Content Include="Vistas\AgregarPartido.aspx" />
     <Content Include="Vistas\AgregarTorneo.aspx" />
+    <Content Include="Vistas\DiagramaTorneos.aspx" />
     <Content Include="Vistas\EditarEquipo.aspx" />
     <Content Include="Vistas\EditarPartido.aspx" />
     <Content Include="Vistas\EditarTorneo.aspx" />
@@ -367,6 +368,27 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\BusinessLogic\EquipoService.cs" />
+    <Content Include="App_Code\BusinessLogic\EstadisticaService.cs" />
+    <Content Include="App_Code\BusinessLogic\JugadorService.cs" />
+    <Content Include="App_Code\BusinessLogic\PartidoService.cs" />
+    <Content Include="App_Code\BusinessLogic\TipoTorneoService.cs" />
+    <Content Include="App_Code\BusinessLogic\TorneoService.cs" />
+    <Content Include="App_Code\DataAccess\EquipoRepository.cs" />
+    <Content Include="App_Code\DataAccess\EstadisticaRepository.cs" />
+    <Content Include="App_Code\DataAccess\JugadorRepository.cs" />
+    <Content Include="App_Code\DataAccess\PartidoRepository.cs" />
+    <Content Include="App_Code\DataAccess\TipoTorneoRepository.cs" />
+    <Content Include="App_Code\DataAccess\TorneoRepository.cs" />
+    <Content Include="App_Code\Models\Equipo.cs" />
+    <Content Include="App_Code\Models\Estadistica.cs" />
+    <Content Include="App_Code\Models\Jugador.cs" />
+    <Content Include="App_Code\Models\Partido.cs" />
+    <Content Include="App_Code\Models\TipoTorneo.cs" />
+    <Content Include="App_Code\Models\Torneo.cs" />
+    <Content Include="App_Code\Utils\Conexion.cs" />
+    <Content Include="App_Code\Utils\ErrorHandler.cs" />
+    <Content Include="App_Code\Utils\FormUtils.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -439,6 +461,13 @@
     </Compile>
     <Compile Include="Vistas\AgregarTorneo.aspx.designer.cs">
       <DependentUpon>AgregarTorneo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\DiagramaTorneos.aspx.cs">
+      <DependentUpon>DiagramaTorneos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\DiagramaTorneos.aspx.designer.cs">
+      <DependentUpon>DiagramaTorneos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\EditarEquipo.aspx.cs">
       <DependentUpon>EditarEquipo.aspx</DependentUpon>
