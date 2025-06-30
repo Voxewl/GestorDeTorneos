@@ -102,14 +102,7 @@
   </style>
 
   <div class="wrapper">
-    <header>
-      <button class="btn-back" onclick="window.location.href='Default.aspx'">←</button>
-      <nav>
-        <a href="#">Ver</a>
-        <a href="#">Crear</a>
-        <a href="#">Perfil</a>
-      </nav>
-    </header>
+    
 
     <main class="content">
       <h1>Agregar Torneo</h1>

@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Administracion1.aspx.cs" Inherits="Gestor_Torneos.Vistas.Administracion1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+    <div class="container bg-dark text-white p-4 rounded">
         <!-- Gestión de Roles -->
         <div class="row mt-4">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <div class="card-header"><h5>Gestión de Roles</h5></div>
                     <div class="card-body">
-                        <asp:Label ID="Label1" runat="server" Text="Crear Rol"></asp:Label>
-                        <asp:TextBox ID="txtRolName" runat="server" CssClass="form-control"></asp:TextBox>
+                        <asp:Label ID="Label1" runat="server" Text="Crear Rol" CssClass="text-white"></asp:Label>
+                        <asp:TextBox ID="txtRolName" runat="server" CssClass="form-control bg-secondary text-white"></asp:TextBox>
                         <br />
                         <asp:Button ID="btnCrearRol" runat="server" Text="Crear" CssClass="btn btn-primary mb-2" OnClick="btnCrearRol_Click" />
                         <asp:Button ID="btnEliminarRol" runat="server" Text="Eliminar" CssClass="btn btn-danger mb-2" OnClick="btnEliminarRol_Click" />
@@ -19,12 +19,12 @@
             </div>
 
             <div class="col-md-8">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <div class="card-header"><h5>Roles Existentes</h5></div>
                     <div class="card-body">
                         <asp:GridView ID="gvRolName" runat="server" AutoGenerateColumns="False"
                             DataKeyNames="Id" DataSourceID="SqlDataSource1"
-                            CssClass="table table-bordered table-striped"
+                            CssClass="table table-bordered table-dark"
                             OnSelectedIndexChanged="gvRolName_SelectedIndexChanged">
                             <Columns>
                                 <asp:CommandField ShowSelectButton="True" ButtonType="Button" />
@@ -54,20 +54,20 @@
         <!-- Gestión de Usuarios -->
         <div class="row mt-4">
             <div class="col-md-5">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <div class="card-header"><h5>Gestión de Usuarios</h5></div>
                     <div class="card-body">
-                        <asp:Label ID="Label3" runat="server" Text="Nombre Del Usuario:"></asp:Label>
-                        <asp:TextBox ID="txtUserName" runat="server" CssClass="form-control"></asp:TextBox>
+                        <asp:Label ID="Label3" runat="server" Text="Nombre Del Usuario:" CssClass="text-white"></asp:Label>
+                        <asp:TextBox ID="txtUserName" runat="server" CssClass="form-control bg-secondary text-white"></asp:TextBox>
                         <br />
-                        <asp:Label ID="Label8" runat="server" Text="Correo Electrónico:"></asp:Label>
-                        <asp:TextBox ID="txtCorreo" runat="server" CssClass="form-control"></asp:TextBox>
+                        <asp:Label ID="Label8" runat="server" Text="Correo Electrónico:" CssClass="text-white"></asp:Label>
+                        <asp:TextBox ID="txtCorreo" runat="server" CssClass="form-control bg-secondary text-white"></asp:TextBox>
                         <br />
-                        <asp:Label ID="Label4" runat="server" Text="Contraseña:"></asp:Label>
-                        <asp:TextBox ID="txtPass" runat="server" CssClass="form-control" TextMode="Password" />
+                        <asp:Label ID="Label4" runat="server" Text="Contraseña:" CssClass="text-white"></asp:Label>
+                        <asp:TextBox ID="txtPass" runat="server" CssClass="form-control bg-secondary text-white" TextMode="Password" />
                         <br />
-                        <asp:Label ID="Label5" runat="server" Text="Confirmar Contraseña:"></asp:Label>
-                        <asp:TextBox ID="txtConfirmar" runat="server" CssClass="form-control" TextMode="Password" />
+                        <asp:Label ID="Label5" runat="server" Text="Confirmar Contraseña:" CssClass="text-white"></asp:Label>
+                        <asp:TextBox ID="txtConfirmar" runat="server" CssClass="form-control bg-secondary text-white" TextMode="Password" />
                         <br />
                         <asp:Button ID="btnCrearUsuario" runat="server" Text="Crear Usuario" CssClass="btn btn-primary mb-2" OnClick="btnCrearUsuario_Click" />
                         <asp:Button ID="btnBorrarUsuario" runat="server" Text="Borrar Usuario" CssClass="btn btn-danger mb-2" OnClick="btnBorrarUsuario_Click" />
@@ -76,12 +76,12 @@
             </div>
 
             <div class="col-md-7">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <div class="card-header"><h5>Usuarios Existentes</h5></div>
                     <div class="card-body">
                         <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False"
                             DataKeyNames="Id" DataSourceID="SqlDataSource2"
-                            CssClass="table table-bordered table-striped"
+                            CssClass="table table-bordered table-dark"
                             OnSelectedIndexChanged="gvUsuarios_SelectedIndexChanged">
                             <Columns>
                                 <asp:CommandField ShowSelectButton="True" ButtonType="Button" />
@@ -105,7 +105,7 @@
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong>¡Éxito!</strong> Asignación creada correctamente.
                 </asp:Panel>
-                <asp:Panel ID="Panel4" runat="server" CssClass="alert alert-danger alert-dismissible fade show" Visible="false">
+                <asp:Panel ID="Panel4" runat="server" CssClass="alert alert-danger alert-dismissible fade show text-white" Visible="false">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong>¡Fracaso!</strong> Asignación no creada.
                 </asp:Panel>
@@ -115,14 +115,14 @@
         <!-- Asignación de Roles -->
         <div class="row mt-4">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <div class="card-header"><h5>Asignación de Roles</h5></div>
                     <div class="card-body">
-                        <asp:Label ID="Label7" runat="server" Text="Usuario: " />
-                        <asp:Label ID="lblNomUser" runat="server" />
+                        <asp:Label ID="Label7" runat="server" Text="Usuario: " CssClass="text-white" />
+                        <asp:Label ID="lblNomUser" runat="server" CssClass="text-white" />
                         <br />
-                        <asp:Label ID="Label9" runat="server" Text="Rol:" />
-                        <asp:Label ID="lblNomRol" runat="server" />
+                        <asp:Label ID="Label9" runat="server" Text="Rol:" CssClass="text-white" />
+                        <asp:Label ID="lblNomRol" runat="server" CssClass="text-white" />
                         <br />
                         <asp:Button ID="btnRelacion" runat="server" Text="Asignar Rol" CssClass="btn btn-success" OnClick="btnRelacion_Click" />
                     </div>
@@ -134,7 +134,7 @@
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong>¡Éxito!</strong> Asignación creada correctamente.
                 </asp:Panel>
-                <asp:Panel ID="Panel5" runat="server" CssClass="alert alert-danger alert-dismissible fade show" Visible="false">
+                <asp:Panel ID="Panel5" runat="server" CssClass="alert alert-danger alert-dismissible fade show text-white" Visible="false">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong>¡Fracaso!</strong> Asignación no creada.
                 </asp:Panel>
@@ -152,3 +152,5 @@
         </div>
     </div>
 </asp:Content>
+
+
