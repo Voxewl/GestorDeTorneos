@@ -1,36 +1,25 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using Gestor_Torneos.DataAccess;
 using Gestor_Torneos.Models;
 
-namespace Gestor_Torneos.BusinessLogic
+public class JugadorService
 {
-    public class JugadorService
+    /// <summary>
+    /// Registra un nuevo jugador.
+    /// </summary>
+    public static string RegistrarJugador(Jugador jugador)
     {
-        private readonly JugadorRepository _jugadorRepository;
+        if (string.IsNullOrWhiteSpace(jugador.Alias) || string.IsNullOrWhiteSpace(jugador.UserId))
+            return "Alias y UserId son obligatorios.";
 
-        public JugadorService()
-        {
-            _jugadorRepository = new JugadorRepository();
-        }
+        JugadorDAO.Insertar(jugador);
+        return "Jugador registrado correctamente.";
+    }
 
-        public List<Jugador> ObtenerTodos()
-        {
-            return _jugadorRepository.ObtenerTodos();
-        }
-
-        public Jugador ObtenerPorId(int id)
-        {
-            return _jugadorRepository.ObtenerPorId(id);
-        }
-
-        public void Agregar(Jugador jugador)
-        {
-            _jugadorRepository.Agregar(jugador);
-        }
-
-        public void Eliminar(int id)
-        {
-            _jugadorRepository.Eliminar(id);
-        }
+    public static List<Jugador> ObtenerTodos()
+    {
+        return JugadorDAO.ObtenerTodos();
     }
 }

@@ -1,48 +1,29 @@
-using System.Collections.Generic;
-using Gestor_Torneos.DataAccess;
-using Gestor_Torneos.Models;
 using System;
 
-namespace Gestor_Torneos.BusinessLogic
+public class PartidoService
 {
-    public class PartidoService
+    /// <summary>
+    /// Registra un nuevo partido, validando que los equipos no sean iguales.
+    /// </summary>
+    public static string RegistrarPartido(Partido partido)
     {
-        private readonly PartidoRepository _partidoRepository;
+        if (partido.ID_Equipo1 == partido.ID_Equipo2)
+            return "No se puede registrar un partido con el mismo equipo enfrentándose a sí mismo.";
 
-        public PartidoService()
-        {
-            _partidoRepository = new PartidoRepository();
-        }
+        if (partido.Fecha < DateTime.Today.AddYears(-1) || partido.Fecha > DateTime.Today.AddYears(5))
+            return "La fecha del partido no es válida.";
 
-        public List<Partido> ObtenerTodos()
-        {
-            return _partidoRepository.ObtenerTodos();
-        }
+        // Aquí puedes añadir más validaciones si lo deseas (goles, estado del torneo, etc.)
 
-        public Partido ObtenerPorId(int id)
-        {
-            return _partidoRepository.ObtenerPorId(id);
-        }
+        PartidoDAO.Insertar(partido);
+        return "Partido registrado correctamente.";
+    }
 
-        public void Agregar(Partido partido)
-        {
-            if (partido.ID_Equipo1 == partido.ID_Equipo2)
-                throw new ArgumentException("Los equipos deben ser distintos.");
-
-            _partidoRepository.Agregar(partido);
-        }
-
-        public void Actualizar(Partido partido)
-        {
-            if (partido.ID_Equipo1 == partido.ID_Equipo2)
-                throw new ArgumentException("Los equipos deben ser distintos.");
-
-            _partidoRepository.Actualizar(partido);
-        }
-
-        public void Eliminar(int id)
-        {
-            _partidoRepository.Eliminar(id);
-        }
+    /// <summary>
+    /// Retorna todos los partidos registrados.
+    /// </summary>
+    public static List<Partido> ObtenerTodos()
+    {
+        return PartidoDAO.ObtenerTodos();
     }
 }
