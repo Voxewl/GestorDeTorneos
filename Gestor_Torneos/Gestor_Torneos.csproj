@@ -380,26 +380,9 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\BusinessLogic\EstadisticaService.cs" />
-    <Content Include="App_Code\BusinessLogic\JugadorService.cs" />
-    <Content Include="App_Code\BusinessLogic\PartidoService.cs" />
-    <Content Include="App_Code\Models\Estadistica.cs" />
-    <Content Include="App_Code\Models\Jugador.cs" />
-    <Content Include="App_Code\Models\Partido.cs" />
-    <Content Include="App_Code\Utils\Conexion.cs" />
-    <Content Include="App_Code\Utils\ErrorHandler.cs" />
-    <Content Include="App_Code\Utils\FormUtils.cs" />
-    <Content Include="App_Code\DataAccess\EquipoDAO.cs" />
-    <Content Include="App_Code\DataAccess\EquipoTorneoDAO.cs" />
-    <Content Include="App_Code\DataAccess\EstadisticaDAO.cs" />
-    <Content Include="App_Code\DataAccess\JugadorDAO.cs" />
-    <Content Include="App_Code\DataAccess\JugadorEquipoDAO.cs" />
-    <Content Include="App_Code\DataAccess\PartidoDAO.cs" />
-    <Content Include="App_Code\DataAccess\TorneoDAO.cs" />
-    <Content Include="App_Code\BusinessLogic\JugadorEquipoService.cs" />
-    <Content Include="App_Code\BusinessLogic\EquipoTorneoService.cs" />
-    <Content Include="App_Code\Models\EquipoTorneo.cs" />
-    <Content Include="App_Code\Models\JugadorEquipo.cs" />
+    <Content Include="Logica\Utils\Conexion.cs" />
+    <Content Include="Logica\Utils\ErrorHandler.cs" />
+    <Content Include="Logica\Utils\FormUtils.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -428,6 +411,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logica\BusinessLogic\EquipoTorneoService.cs" />
+    <Compile Include="Logica\BusinessLogic\EstadisticaService.cs" />
+    <Compile Include="Logica\BusinessLogic\JugadorEquipoService.cs" />
+    <Compile Include="Logica\BusinessLogic\JugadorService.cs" />
+    <Compile Include="Logica\BusinessLogic\PartidoService.cs" />
+    <Compile Include="Logica\DataAccess\EquipoDAO.cs" />
+    <Compile Include="Logica\DataAccess\EquipoTorneoDAO.cs" />
+    <Compile Include="Logica\DataAccess\EstadisticaDAO.cs" />
+    <Compile Include="Logica\DataAccess\JugadorDAO.cs" />
+    <Compile Include="Logica\DataAccess\JugadorEquipoDAO.cs" />
+    <Compile Include="Logica\DataAccess\PartidoDAO.cs" />
+    <Compile Include="Logica\DataAccess\TorneoDAO.cs" />
+    <Compile Include="Logica\DataAccess\UsuarioDAO.cs" />
+    <Compile Include="Logica\Models\EquipoTorneo.cs" />
+    <Compile Include="Logica\Models\Estadistica.cs" />
+    <Compile Include="Logica\Models\Jugador.cs" />
+    <Compile Include="Logica\Models\JugadorEquipo.cs" />
+    <Compile Include="Logica\Models\Partido.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Pages\Administracion.aspx.cs">
       <DependentUpon>Administracion.aspx</DependentUpon>
@@ -608,6 +609,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
     <Folder Include="Pages\Reportes\" />
   </ItemGroup>
