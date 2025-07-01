@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 public class EstadisticaService
 {
@@ -15,4 +16,5 @@ public class EstadisticaService
     {
         return EstadisticaDAO.ObtenerTodos();
     }
+
 }

@@ -190,6 +190,15 @@
     <Content Include="Global.asax" />
     <Content Include="Images\banner.jpg" />
     <Content Include="Images\imgcard1.jpg" />
+    <Content Include="Pages\Administracion.aspx" />
+    <Content Include="Pages\Dashboard.aspx" />
+    <Content Include="Pages\Equipos\AsignarATorneo.aspx" />
+    <Content Include="Pages\Equipos\Registrar.aspx" />
+    <Content Include="Pages\Estadisticas\Consultar.aspx" />
+    <Content Include="Pages\Jugadores\Registrar.aspx" />
+    <Content Include="Pages\Jugadores\RegistrarEquipo.aspx" />
+    <Content Include="Pages\Partidos\Registrar.aspx" />
+    <Content Include="Pages\Torneos\Resgistrar.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -371,27 +380,26 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\BusinessLogic\EquipoService.cs" />
     <Content Include="App_Code\BusinessLogic\EstadisticaService.cs" />
     <Content Include="App_Code\BusinessLogic\JugadorService.cs" />
     <Content Include="App_Code\BusinessLogic\PartidoService.cs" />
-    <Content Include="App_Code\BusinessLogic\TipoTorneoService.cs" />
-    <Content Include="App_Code\BusinessLogic\TorneoService.cs" />
-    <Content Include="App_Code\DataAccess\EquipoRepository.cs" />
-    <Content Include="App_Code\DataAccess\EstadisticaRepository.cs" />
-    <Content Include="App_Code\DataAccess\JugadorRepository.cs" />
-    <Content Include="App_Code\DataAccess\PartidoRepository.cs" />
-    <Content Include="App_Code\DataAccess\TipoTorneoRepository.cs" />
-    <Content Include="App_Code\DataAccess\TorneoRepository.cs" />
-    <Content Include="App_Code\Models\Equipo.cs" />
     <Content Include="App_Code\Models\Estadistica.cs" />
     <Content Include="App_Code\Models\Jugador.cs" />
     <Content Include="App_Code\Models\Partido.cs" />
-    <Content Include="App_Code\Models\TipoTorneo.cs" />
-    <Content Include="App_Code\Models\Torneo.cs" />
     <Content Include="App_Code\Utils\Conexion.cs" />
     <Content Include="App_Code\Utils\ErrorHandler.cs" />
     <Content Include="App_Code\Utils\FormUtils.cs" />
+    <Content Include="App_Code\DataAccess\EquipoDAO.cs" />
+    <Content Include="App_Code\DataAccess\EquipoTorneoDAO.cs" />
+    <Content Include="App_Code\DataAccess\EstadisticaDAO.cs" />
+    <Content Include="App_Code\DataAccess\JugadorDAO.cs" />
+    <Content Include="App_Code\DataAccess\JugadorEquipoDAO.cs" />
+    <Content Include="App_Code\DataAccess\PartidoDAO.cs" />
+    <Content Include="App_Code\DataAccess\TorneoDAO.cs" />
+    <Content Include="App_Code\BusinessLogic\JugadorEquipoService.cs" />
+    <Content Include="App_Code\BusinessLogic\EquipoTorneoService.cs" />
+    <Content Include="App_Code\Models\EquipoTorneo.cs" />
+    <Content Include="App_Code\Models\JugadorEquipo.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -421,6 +429,69 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\Administracion.aspx.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Administracion.aspx.designer.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Equipos\AsignarATorneo.aspx.cs">
+      <DependentUpon>AsignarATorneo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Equipos\AsignarATorneo.aspx.designer.cs">
+      <DependentUpon>AsignarATorneo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Equipos\Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Equipos\Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Estadisticas\Consultar.aspx.cs">
+      <DependentUpon>Consultar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Estadisticas\Consultar.aspx.designer.cs">
+      <DependentUpon>Consultar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Jugadores\Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Jugadores\Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Jugadores\RegistrarEquipo.aspx.cs">
+      <DependentUpon>RegistrarEquipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Jugadores\RegistrarEquipo.aspx.designer.cs">
+      <DependentUpon>RegistrarEquipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Partidos\Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Partidos\Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Torneos\Resgistrar.aspx.cs">
+      <DependentUpon>Resgistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Torneos\Resgistrar.aspx.designer.cs">
+      <DependentUpon>Resgistrar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -538,6 +609,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Pages\Reportes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Gestor_Torneos.DataAccess;
 using Gestor_Torneos.Models;
 
 public class JugadorService

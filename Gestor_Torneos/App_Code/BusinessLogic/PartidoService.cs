@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 public class PartidoService
 {
@@ -8,22 +9,33 @@ public class PartidoService
     public static string RegistrarPartido(Partido partido)
     {
         if (partido.ID_Equipo1 == partido.ID_Equipo2)
-            return "No se puede registrar un partido con el mismo equipo enfrentándose a sí mismo.";
-
-        if (partido.Fecha < DateTime.Today.AddYears(-1) || partido.Fecha > DateTime.Today.AddYears(5))
-            return "La fecha del partido no es válida.";
-
-        // Aquí puedes añadir más validaciones si lo deseas (goles, estado del torneo, etc.)
+            return "Los equipos no pueden ser iguales.";
 
         PartidoDAO.Insertar(partido);
+        ActualizarEstadisticas(partido);
         return "Partido registrado correctamente.";
     }
 
-    /// <summary>
-    /// Retorna todos los partidos registrados.
-    /// </summary>
-    public static List<Partido> ObtenerTodos()
+    private static void ActualizarEstadisticas(Partido partido)
     {
-        return PartidoDAO.ObtenerTodos();
+        // Para equipo 1
+        EstadisticaDAO.ActualizarDesdePartido(
+            partido.ID_Equipo1,
+            partido.ID_Torneo,
+            partido.GolesEquipo1 > partido.GolesEquipo2 ? 1 : 0,
+            partido.GolesEquipo1 < partido.GolesEquipo2 ? 1 : 0,
+            partido.GolesEquipo1 > partido.GolesEquipo2 ? 3 :
+            partido.GolesEquipo1 == partido.GolesEquipo2 ? 1 : 0
+        );
+
+        // Para equipo 2
+        EstadisticaDAO.ActualizarDesdePartido(
+            partido.ID_Equipo2,
+            partido.ID_Torneo,
+            partido.GolesEquipo2 > partido.GolesEquipo1 ? 1 : 0,
+            partido.GolesEquipo2 < partido.GolesEquipo1 ? 1 : 0,
+            partido.GolesEquipo2 > partido.GolesEquipo1 ? 3 :
+            partido.GolesEquipo2 == partido.GolesEquipo1 ? 1 : 0
+        );
     }
 }
