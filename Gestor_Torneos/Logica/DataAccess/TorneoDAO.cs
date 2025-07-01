@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using Gestor_Torneos.Logica.Models;
 
 namespace Gestor_Torneos.Logica.DataAccess
 {

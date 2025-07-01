@@ -27,7 +27,7 @@ namespace Gestor_Torneos.Pages.Jugadores
 
         private void CargarJugadores()
         {
-            gvJugadores.DataSource = JugadorService.ObtenerTodos();
+            //gvJugadores.DataSource = JugadorService.ObtenerTodos();
             gvJugadores.DataBind();
         }
 

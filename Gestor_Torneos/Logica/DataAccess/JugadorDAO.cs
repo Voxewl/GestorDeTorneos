@@ -47,6 +47,7 @@ namespace Gestor_Torneos.Logica.DataAccess
             }
             return lista;
         }
+     
         public static void Actualizar(Jugador jugador)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
