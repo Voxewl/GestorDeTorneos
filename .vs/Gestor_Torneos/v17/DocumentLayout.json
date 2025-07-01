@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\eimc7\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\eimc7\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\jugadores\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\jugadores\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -119,10 +123,6 @@
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\estadisticas\\consultar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\eimc7\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\eimc7\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\administracion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\administracion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -230,7 +230,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
@@ -247,21 +247,36 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JugadorService.cs",
-              "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T03:22:41.982Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JugadorDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
@@ -274,12 +289,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Registrar.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
-              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx*",
-              "RelativeToolTip": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx*",
+              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
+              "RelativeToolTip": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-07-01T01:50:01.191Z",
@@ -287,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Registrar.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs",
@@ -300,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PartidoDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
@@ -313,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Registrar.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.designer.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.designer.cs",
@@ -326,7 +341,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Dashboard.aspx*",
+              "RelativeToolTip": "Gestor_Torneos\\Pages\\Dashboard.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-01T01:28:45.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JugadorService.cs",
+              "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
+              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:22:41.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PartidoService.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
@@ -339,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TorneoDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\TorneoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\TorneoDAO.cs",
@@ -352,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UsuarioDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\UsuarioDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\UsuarioDAO.cs",
@@ -365,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Jugador.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Jugador.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Jugador.cs",
@@ -378,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "JugadorEquipoDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorEquipoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\JugadorEquipoDAO.cs",
@@ -391,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EstadisticaDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EstadisticaDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EstadisticaDAO.cs",
@@ -404,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EquipoTorneoService.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
@@ -417,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EstadisticaService.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
@@ -430,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "JugadorEquipoService.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
@@ -443,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EquipoDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
@@ -456,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EquipoTorneoDAO.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
@@ -469,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Partido.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Partido.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Partido.cs",
@@ -482,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "JugadorEquipo.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\JugadorEquipo.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\JugadorEquipo.cs",
@@ -495,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Estadistica.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Estadistica.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Estadistica.cs",
@@ -508,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EquipoTorneo.cs",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
@@ -521,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Administracion.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Administracion.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Administracion.aspx",
@@ -534,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Registrar.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx",
@@ -547,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Reportes.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\Reportes.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\Reportes.aspx",
@@ -560,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Resgistrar.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Torneos\\Resgistrar.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Torneos\\Resgistrar.aspx",
@@ -573,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AsignarATorneo.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Equipos\\AsignarATorneo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Equipos\\AsignarATorneo.aspx",
@@ -586,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "RegistrarEquipo.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\RegistrarEquipo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\RegistrarEquipo.aspx",
@@ -599,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Registrar.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx",
@@ -612,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Consultar.aspx",
               "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Estadisticas\\Consultar.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Estadisticas\\Consultar.aspx",
@@ -621,19 +662,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-07-01T01:51:01.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Dashboard.aspx",
-              "DocumentMoniker": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Dashboard.aspx",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Dashboard.aspx",
-              "ToolTip": "C:\\Users\\eimc7\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Dashboard.aspx",
-              "RelativeToolTip": "Gestor_Torneos\\Pages\\Dashboard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-01T01:28:45.487Z",
               "EditorCaption": ""
             },
             {
@@ -687,34 +715,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-21T19:20:36.896Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
