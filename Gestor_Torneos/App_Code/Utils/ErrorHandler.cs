@@ -1,3 +1,6 @@
+using System;
+using System.Web.UI;
+
 namespace Gestor_Torneos.Utils
 {
     public static class ErrorHandler

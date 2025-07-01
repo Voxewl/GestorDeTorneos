@@ -1,3 +1,5 @@
+using System;
+
 namespace Gestor_Torneos.Models
 {
     public class Equipo
