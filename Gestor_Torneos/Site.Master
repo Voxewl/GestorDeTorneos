@@ -14,7 +14,6 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <style>
-        /* Reset y estilos base */
         html, body {
             height: 100%;
             margin: 0;
@@ -22,34 +21,31 @@
             background-color: #121212;
             font-family: 'Segoe UI', sans-serif;
         }
-        
+
         body {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
-        
-        /* Navbar */
+
         .navbar-container {
             background-color: #121212;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             width: 100%;
         }
-        
+
         .navbar {
             background-color: #121212 !important;
             padding: 0.5rem 1rem;
         }
-        
-        /* Contenido principal */
+
         .main-content {
             flex: 1;
             padding: 0;
             margin: 0;
             background-color: transparent;
         }
-        
-        /* Footer */
+
         footer {
             background-color: #121212;
             color: #ffffff;
@@ -57,33 +53,31 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             margin-top: auto;
         }
-        
-        /* Estilos específicos de la navbar */
+
         .navbar-brand {
             color: #ffffff !important;
             font-weight: bold;
             font-size: 1.5rem;
             transition: all 0.3s ease;
         }
-        
+
         .navbar-brand:hover {
             color: #ffffff !important;
             text-shadow: 0 0 5px #ffffff;
         }
-        
+
         .nav-link {
             color: #ffffff !important;
             transition: all 0.3s ease;
             padding: 8px 15px !important;
         }
-        
+
         .nav-link:hover {
             color: #ffffff !important;
             text-shadow: 0 0 8px #ffffff;
             background-color: transparent !important;
         }
-        
-        /* Botón Registrarse/Iniciar sesión */
+
         .btn-register {
             background-color: #B8860B !important;
             color: white !important;
@@ -94,14 +88,13 @@
             margin-left: 10px !important;
             transition: all 0.3s ease !important;
         }
-        
+
         .btn-register:hover {
             background-color: #DAA520 !important;
             box-shadow: 0 0 10px #FFD700;
             color: white !important;
         }
-        
-        /* Botón Cerrar sesión */
+
         .btn-logout {
             background-color: #8B0000 !important;
             color: white !important;
@@ -112,20 +105,19 @@
             transition: all 0.3s ease !important;
             font-size: 0.85rem;
         }
-        
+
         .btn-logout:hover {
             background-color: #FF0000 !important;
             box-shadow: 0 0 10px #FF6B6B;
             color: white !important;
         }
-        
-        /* Eliminar bordes blancos de Bootstrap */
+
         .container {
             padding-left: 0;
             padding-right: 0;
             max-width: 100%;
         }
-        
+
         .navbar > .container {
             padding-left: 15px;
             padding-right: 15px;
@@ -134,9 +126,7 @@
 </head>
 <body>
     <form runat="server">
-        <asp:ScriptManager runat="server">
-            <%-- Scripts omitidos por brevedad --%>
-        </asp:ScriptManager>
+        <asp:ScriptManager runat="server" />
 
         <!-- Navbar -->
         <div class="navbar-container">
@@ -146,30 +136,42 @@
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item"><a class="nav-link" runat="server" href="~/">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Acerca de</a></li>
-                            <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contacto</a></li>
-                        </ul>
-                        <asp:LoginView runat="server" ViewStateMode="Disabled">
-                            <AnonymousTemplate>
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a runat="server" class="nav-link btn-register" href="~/Account/Register">Registrarse</a></li>
-                                    <li class="nav-item"><a runat="server" class="nav-link btn-register" href="~/Account/Login">Iniciar sesión</a></li>
-                                </ul>
-                            </AnonymousTemplate>
-                            <LoggedInTemplate>
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a runat="server" class="nav-link" href="~/Account/Manage">Hola, <%: Context.User.Identity.GetUserName() %>!</a></li>
-                                    <li class="nav-item">
-                                         <asp:LoginStatus runat="server" CssClass="nav-link btn-logout" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /> 
-                                            
-                                    </li>
-                                </ul>
-                            </LoggedInTemplate>
-                        </asp:LoginView>
-                    </div>
+
+                    <!-- Menú dinámico -->
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item"><a class="nav-link" runat="server" href="~/">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Acerca de</a></li>
+                                <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contacto</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item"><a class="nav-link" runat="server" href="~/Pages/Dashboard">Dashboard</a></li>
+                                <li class="nav-item"><a class="nav-link" runat="server" href="~/Pages/Administracion">Administración</a></li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+
+                    <!-- Login/Register/Logout -->
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a runat="server" class="nav-link btn-register" href="~/Account/Register">Registrarse</a></li>
+                                <li class="nav-item"><a runat="server" class="nav-link btn-register" href="~/Account/Login">Iniciar sesión</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a runat="server" class="nav-link" href="~/Account/Manage">Hola, <%: Context.User.Identity.GetUserName() %>!</a></li>
+                                <li class="nav-item">
+                                    <asp:LoginStatus runat="server" CssClass="nav-link btn-logout" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+
                 </nav>
             </div>
         </div>

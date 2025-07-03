@@ -11,7 +11,7 @@ namespace Gestor_Torneos.Pages.Torneos
 {
 
 
-    public partial class Resgistrar
+    public partial class Registrar
     {
     }
 }

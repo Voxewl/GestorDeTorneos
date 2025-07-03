@@ -22,6 +22,19 @@ namespace Gestor_Torneos.Logica.DataAccess
                 cmd.ExecuteNonQuery();
             }
         }
+        public static void Eliminar(int jugadorId, int equipoId)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "DELETE FROM JugadorEquipo WHERE JugadorId = @JugadorId AND ID_Equipo = @EquipoId";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@JugadorId", jugadorId);
+                cmd.Parameters.AddWithValue("@EquipoId", equipoId);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
 
         public static List<JugadorEquipo> ObtenerAsignaciones()
         {

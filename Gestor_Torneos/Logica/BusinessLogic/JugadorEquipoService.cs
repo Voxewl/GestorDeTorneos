@@ -1,5 +1,6 @@
 ﻿using Gestor_Torneos.Logica.DataAccess;
 using Gestor_Torneos.Logica.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -25,5 +26,18 @@ namespace Gestor_Torneos.Logica.BusinessLogic
         {
             return JugadorEquipoDAO.ObtenerAsignaciones();
         }
+        public static string EliminarAsignacion(int jugadorId, int equipoId)
+        {
+            try
+            {
+                JugadorEquipoDAO.Eliminar(jugadorId, equipoId);
+                return "Asignación eliminada correctamente.";
+            }
+            catch (Exception ex)
+            {
+                return "Error al eliminar la asignación: " + ex.Message;
+            }
+        }
+
     }
 }

@@ -198,7 +198,8 @@
     <Content Include="Pages\Jugadores\Registrar.aspx" />
     <Content Include="Pages\Jugadores\RegistrarEquipo.aspx" />
     <Content Include="Pages\Partidos\Registrar.aspx" />
-    <Content Include="Pages\Torneos\Resgistrar.aspx" />
+    <Content Include="Pages\Torneos\Registrar.aspx" />
+    <Content Include="Pages\Torneos\Tipos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -411,17 +412,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logica\BusinessLogic\EquipoService.cs" />
     <Compile Include="Logica\BusinessLogic\EquipoTorneoService.cs" />
     <Compile Include="Logica\BusinessLogic\EstadisticaService.cs" />
     <Compile Include="Logica\BusinessLogic\JugadorEquipoService.cs" />
     <Compile Include="Logica\BusinessLogic\JugadorService.cs" />
     <Compile Include="Logica\BusinessLogic\PartidoService.cs" />
+    <Compile Include="Logica\BusinessLogic\TipoTorneoService.cs" />
     <Compile Include="Logica\DataAccess\EquipoDAO.cs" />
     <Compile Include="Logica\DataAccess\EquipoTorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\EstadisticaDAO.cs" />
     <Compile Include="Logica\DataAccess\JugadorDAO.cs" />
     <Compile Include="Logica\DataAccess\JugadorEquipoDAO.cs" />
     <Compile Include="Logica\DataAccess\PartidoDAO.cs" />
+    <Compile Include="Logica\DataAccess\TipoTorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\TorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\UsuarioDAO.cs" />
     <Compile Include="Logica\Models\EquipoTorneo.cs" />
@@ -429,6 +433,7 @@
     <Compile Include="Logica\Models\Jugador.cs" />
     <Compile Include="Logica\Models\JugadorEquipo.cs" />
     <Compile Include="Logica\Models\Partido.cs" />
+    <Compile Include="Logica\Models\TipoTorneo.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Pages\Administracion.aspx.cs">
       <DependentUpon>Administracion.aspx</DependentUpon>
@@ -486,12 +491,19 @@
     <Compile Include="Pages\Partidos\Registrar.aspx.designer.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Torneos\Resgistrar.aspx.cs">
-      <DependentUpon>Resgistrar.aspx</DependentUpon>
+    <Compile Include="Pages\Torneos\Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Torneos\Resgistrar.aspx.designer.cs">
-      <DependentUpon>Resgistrar.aspx</DependentUpon>
+    <Compile Include="Pages\Torneos\Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Torneos\Tipos.aspx.cs">
+      <DependentUpon>Tipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Torneos\Tipos.aspx.designer.cs">
+      <DependentUpon>Tipos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

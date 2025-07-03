@@ -15,7 +15,7 @@
                         <i class="bi bi-person-fill display-4 mb-3"></i>
                         <h5 class="card-title">Jugadores</h5>
                         <a href="Jugadores/Registrar.aspx" class="btn btn-primary btn-sm mt-2">Registrar</a>
-                        <a href="Jugadores/AsignarAEquipo.aspx" class="btn btn-primary btn-sm mt-2">Asignar a Equipo</a>
+                        <a href="Jugadores/RegistrarEquipo.aspx" class="btn btn-primary btn-sm mt-2">Asignar a Equipo</a>
                     </div>
                 </div>
             </div>
@@ -39,6 +39,7 @@
                         <i class="bi bi-trophy-fill display-4 mb-3"></i>
                         <h5 class="card-title">Torneos</h5>
                         <a href="Torneos/Registrar.aspx" class="btn btn-primary btn-sm mt-2">Registrar</a>
+                         <a href="Torneos/Tipos.aspx" class="btn btn-primary btn-sm mt-2">Tipos</a>
                     </div>
                 </div>
             </div>

@@ -98,14 +98,10 @@
                 <asp:Label runat="server" AssociatedControlID="RememberMe" style="color: #eee; margin-left: 8px;">¿Recordar cuenta?</asp:Label>
             </div>
             
-            <asp:Button runat="server" OnClick="LogIn" Text="Iniciar sesión" CssClass="login-button" />
+            <asp:Button runat="server" OnClick="LogIn" Text="Iniciar sesión" CssClass="btn btn-primary w-100" />
             
             <div class="login-options">
                 ¿No tienes cuenta? <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Regístrate</asp:HyperLink>
-            </div>
-            
-            <div style="margin-top: 30px;">
-                <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
             </div>
         </div>
     </div>
