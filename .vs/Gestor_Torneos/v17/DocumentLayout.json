@@ -3,155 +3,135 @@
   "WorkspaceRootPath": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\jugadores\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\jugadores\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\partidos\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\partidos\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\jugadores\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\jugadores\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\partidos\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\partidos\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\jugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\jugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\equipos\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\equipos\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\tipotorneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\tipotorneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\jugadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\jugadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\agregartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\pages\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\jugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\jugadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\agregartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\agregartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\agregarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\agregarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\agregarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\equipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\agregarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\agregarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\agregarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\administracion1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\administracion1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\administracion1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\editarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\editarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\editarpartido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\models\\jugadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\models\\jugadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\jugadorequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\models\\estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\models\\estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\models\\equipotorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\models\\equipotorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\torneodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\torneodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\torneodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\partidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\partidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\jugadorequipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\jugadorequipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\jugadorequipodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\estadisticadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\logica\\dataaccess\\estadisticadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\estadisticadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\dataaccess\\equipotorneodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\dataaccess\\equipotorneodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\partidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\partidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\jugadorequiposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\jugadorequiposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\estadisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\estadisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\logica\\businesslogic\\equipotorneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\logica\\businesslogic\\equipotorneoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\diagramatorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\diagramatorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\diagramatorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\editarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\editarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\editarequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\editartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\editartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\editartorneo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\gestionequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\gestionequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\gestionequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\gestionestadisticas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\gestionestadisticas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\gestionestadisticas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\gestionpartidos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\gestionpartidos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\gestionpartidos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\gestiontorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\gestiontorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\gestiontorneos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\images\\imgcard1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\images\\imgcard1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\images\\imgcard1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\images\\banner.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\images\\banner.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\images\\banner.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|c:\\users\\gaelr\\source\\repos\\gestordetorneos\\gestor_torneos\\vistas\\administracion1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\gestor_torneos\\vistas\\administracion1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48A7920D-9CC4-4E63-B942-581BF151E610}|Gestor_Torneos\\Gestor_Torneos.csproj|solutionrelative:gestor_torneos\\vistas\\administracion1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -162,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,20 +170,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registrar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:01:05.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Partido.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Partido.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Partido.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Partido.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Logica\\Models\\Partido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:31:04.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registrar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Pages\\Equipos\\Registrar.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:06:40.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Registrar.aspx",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
-              "RelativeToolTip": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx*",
+              "RelativeToolTip": "Gestor_Torneos\\Pages\\Partidos\\Registrar.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-01T19:21:21.356Z",
+              "WhenOpened": "2025-07-18T00:01:02.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EquipoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:29:25.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TipoTorneoService.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\TipoTorneoService.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\TipoTorneoService.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\TipoTorneoService.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\TipoTorneoService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:18:58.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JugadorDAO.cs",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
+              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:31:21.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Dashboard.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Dashboard.aspx",
@@ -216,20 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JugadorDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs*",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\JugadorDAO.cs*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:21.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "UsuarioDAO.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\UsuarioDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\UsuarioDAO.cs",
@@ -242,7 +287,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Web.Debug.config",
+              "RelativeDocumentMoniker": "Gestor_Torneos\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Web.Debug.config",
+              "RelativeToolTip": "Gestor_Torneos\\Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-07T03:55:49.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Jugador.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Jugador.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Jugador.cs",
@@ -255,50 +313,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registrar.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs*",
-              "RelativeToolTip": "Gestor_Torneos\\Pages\\Jugadores\\Registrar.aspx.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAIA0wB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T19:21:30.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Web.config",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Web.config",
               "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Web.config",
               "RelativeToolTip": "Gestor_Torneos\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-07-01T19:10:22.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JugadorService.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:23.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AgregarEquipo.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\AgregarEquipo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\AgregarEquipo.aspx",
@@ -311,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AgregarTorneo.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\AgregarTorneo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\AgregarTorneo.aspx",
@@ -324,20 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EquipoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\EquipoDAO.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:29:25.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AgregarPartido.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\AgregarPartido.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\AgregarPartido.aspx",
@@ -350,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Administracion1.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\Administracion1.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\Administracion1.aspx",
@@ -363,20 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Partido.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Partido.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Partido.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Partido.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\Models\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:04.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "JugadorEquipo.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\JugadorEquipo.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\JugadorEquipo.cs",
@@ -389,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Estadistica.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\Estadistica.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\Estadistica.cs",
@@ -402,20 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EquipoTorneo.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\Models\\EquipoTorneo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:13.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "EditarPartido.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\EditarPartido.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\EditarPartido.aspx",
@@ -428,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TorneoDAO.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\TorneoDAO.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\TorneoDAO.cs",
@@ -437,19 +426,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T05:31:16.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PartidoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\PartidoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:32:50.851Z",
               "EditorCaption": ""
             },
             {
@@ -480,72 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EquipoTorneoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\DataAccess\\EquipoTorneoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:32:25.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PartidoService.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\PartidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:32:12.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "JugadorEquipoService.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\JugadorEquipoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:24.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EstadisticaService.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\EstadisticaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:26.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EquipoTorneoService.cs",
-              "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
-              "RelativeDocumentMoniker": "Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
-              "ToolTip": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
-              "RelativeToolTip": "Gestor_Torneos\\Logica\\BusinessLogic\\EquipoTorneoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:31:28.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "EditarTorneo.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\EditarTorneo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\EditarTorneo.aspx",
@@ -558,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "EditarEquipo.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\EditarEquipo.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\EditarEquipo.aspx",
@@ -571,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "DiagramaTorneos.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\DiagramaTorneos.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\DiagramaTorneos.aspx",
@@ -584,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "GestionEquipos.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\GestionEquipos.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\GestionEquipos.aspx",
@@ -597,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 26,
               "Title": "GestionEstadisticas.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\GestionEstadisticas.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\GestionEstadisticas.aspx",
@@ -610,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 27,
               "Title": "GestionPartidos.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\GestionPartidos.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\GestionPartidos.aspx",
@@ -623,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 28,
               "Title": "GestionTorneos.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\GestionTorneos.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\GestionTorneos.aspx",
@@ -636,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 29,
               "Title": "Reportes.aspx",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\Reportes.aspx",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\Reportes.aspx",
@@ -649,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 30,
               "Title": "imgcard1.jpg - Bitmap [3840x2177, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Images\\imgcard1.jpg",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Images\\imgcard1.jpg",
@@ -661,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 31,
               "Title": "banner.jpg - Bitmap [1368x768, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Images\\banner.jpg",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Images\\banner.jpg",
@@ -673,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 32,
               "Title": "Administracion1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\gaelr\\source\\repos\\GestorDeTorneos\\Gestor_Torneos\\Vistas\\Administracion1.aspx.cs",
               "RelativeDocumentMoniker": "Gestor_Torneos\\Vistas\\Administracion1.aspx.cs",

@@ -428,6 +428,7 @@
     <Compile Include="Logica\DataAccess\TipoTorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\TorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\UsuarioDAO.cs" />
+    <Compile Include="Logica\Models\Equipo.cs" />
     <Compile Include="Logica\Models\EquipoTorneo.cs" />
     <Compile Include="Logica\Models\Estadistica.cs" />
     <Compile Include="Logica\Models\Jugador.cs" />
