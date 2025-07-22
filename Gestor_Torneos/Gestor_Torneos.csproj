@@ -197,6 +197,7 @@
     <Content Include="Pages\Estadisticas\Consultar.aspx" />
     <Content Include="Pages\Jugadores\Registrar.aspx" />
     <Content Include="Pages\Jugadores\RegistrarEquipo.aspx" />
+    <Content Include="Pages\Partidos\Agendar.aspx" />
     <Content Include="Pages\Partidos\Registrar.aspx" />
     <Content Include="Pages\Torneos\Registrar.aspx" />
     <Content Include="Pages\Torneos\Tipos.aspx" />
@@ -419,6 +420,7 @@
     <Compile Include="Logica\BusinessLogic\JugadorService.cs" />
     <Compile Include="Logica\BusinessLogic\PartidoService.cs" />
     <Compile Include="Logica\BusinessLogic\TipoTorneoService.cs" />
+    <Compile Include="Logica\BusinessLogic\TorneoService.cs" />
     <Compile Include="Logica\DataAccess\EquipoDAO.cs" />
     <Compile Include="Logica\DataAccess\EquipoTorneoDAO.cs" />
     <Compile Include="Logica\DataAccess\EstadisticaDAO.cs" />
@@ -434,7 +436,9 @@
     <Compile Include="Logica\Models\Jugador.cs" />
     <Compile Include="Logica\Models\JugadorEquipo.cs" />
     <Compile Include="Logica\Models\Partido.cs" />
+    <Compile Include="Logica\Models\PartidoResumen.cs" />
     <Compile Include="Logica\Models\TipoTorneo.cs" />
+    <Compile Include="Logica\Models\Torneo.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Pages\Administracion.aspx.cs">
       <DependentUpon>Administracion.aspx</DependentUpon>
@@ -485,9 +489,15 @@
     <Compile Include="Pages\Jugadores\RegistrarEquipo.aspx.designer.cs">
       <DependentUpon>RegistrarEquipo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Partidos\Agendar.aspx.cs">
+      <DependentUpon>Agendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Partidos\Agendar.aspx.designer.cs">
+      <DependentUpon>Agendar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Partidos\Registrar.aspx.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Partidos\Registrar.aspx.designer.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>

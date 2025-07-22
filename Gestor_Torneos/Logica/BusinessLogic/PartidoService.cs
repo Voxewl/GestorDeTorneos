@@ -1,43 +1,61 @@
 ﻿using Gestor_Torneos.Logica.DataAccess;
 using Gestor_Torneos.Logica.Models;
+using System;
+using System.Collections.Generic;
 
 namespace Gestor_Torneos.Logica.BusinessLogic
 {
-    public class PartidoService
-    { /// <summary>
-      /// Registra un nuevo partido, validando que los equipos no sean iguales.
-      /// </summary>
-        public static string RegistrarPartido(Partido partido)
+    public static class PartidoService
+    {
+        public static List<PartidoResumen> ObtenerResumen()
         {
-            if (partido.ID_Equipo1 == partido.ID_Equipo2)
-                return "Los equipos no pueden ser iguales.";
 
-            PartidoDAO.Insertar(partido);
-            ActualizarEstadisticas(partido);
-            return "Partido registrado correctamente.";
+            return PartidoDAO.ObtenerResumen();
         }
 
-        private static void ActualizarEstadisticas(Partido partido)
+        public static void Eliminar(int id)
         {
-            // Para equipo 1
-            EstadisticaDAO.ActualizarDesdePartido(
-                partido.ID_Equipo1,
-                partido.ID_Torneo,
-                partido.GolesEquipo1 > partido.GolesEquipo2 ? 1 : 0,
-                partido.GolesEquipo1 < partido.GolesEquipo2 ? 1 : 0,
-                partido.GolesEquipo1 > partido.GolesEquipo2 ? 3 :
-                partido.GolesEquipo1 == partido.GolesEquipo2 ? 1 : 0
-            );
-
-            // Para equipo 2
-            EstadisticaDAO.ActualizarDesdePartido(
-                partido.ID_Equipo2,
-                partido.ID_Torneo,
-                partido.GolesEquipo2 > partido.GolesEquipo1 ? 1 : 0,
-                partido.GolesEquipo2 < partido.GolesEquipo1 ? 1 : 0,
-                partido.GolesEquipo2 > partido.GolesEquipo1 ? 3 :
-                partido.GolesEquipo2 == partido.GolesEquipo1 ? 1 : 0
-            );
+            PartidoDAO.Eliminar(id);
         }
+        public static void AgendarPartido(int torneoId, int equipo1, int equipo2, DateTime fecha)
+        {
+            ValidarPartido(torneoId, equipo1, equipo2, fecha);
+            PartidoDAO.Insertar(torneoId, equipo1, equipo2, fecha);
+        }
+
+        public static void Actualizar(int id, int equipo1, int equipo2, DateTime fecha)
+        {
+            var partidoOriginal = PartidoDAO.ObtenerPorId(id);
+            ValidarPartido(partidoOriginal.ID_Torneo, equipo1, equipo2, fecha, id);
+            PartidoDAO.Actualizar(id, equipo1, equipo2, fecha);
+        }
+
+        private static void ValidarPartido(int torneoId, int equipo1, int equipo2, DateTime fecha, int? idExistente = null)
+        {
+            if (equipo1 == equipo2)
+                throw new ArgumentException("No se puede agendar un partido entre el mismo equipo.");
+
+            var partidos = PartidoDAO.ObtenerPorTorneo(torneoId);
+            foreach (var p in partidos)
+            {
+                if (idExistente.HasValue && p.ID_Partido == idExistente.Value)
+                    continue;
+
+                if ((p.ID_Equipo1 == equipo1 && p.ID_Equipo2 == equipo2 || p.ID_Equipo1 == equipo2 && p.ID_Equipo2 == equipo1)
+                    && p.Fecha.Date == fecha.Date)
+                {
+                    throw new ArgumentException("Ya existe un partido agendado entre estos equipos ese día.");
+                }
+
+                if ((p.ID_Equipo1 == equipo1 || p.ID_Equipo2 == equipo1 || p.ID_Equipo1 == equipo2 || p.ID_Equipo2 == equipo2)
+                    && p.Fecha.Date == fecha.Date)
+                {
+                    throw new ArgumentException("Uno de los equipos ya tiene un partido agendado ese día.");
+                }
+            }
+        }
+
+
     }
+
 }

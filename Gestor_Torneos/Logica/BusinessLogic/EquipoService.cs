@@ -1,6 +1,7 @@
 ﻿using Gestor_Torneos.Logica.DataAccess;
 using Gestor_Torneos.Logica.Models;
 using System;
+using System.Collections.Generic;
 
 namespace Gestor_Torneos.Logica.BusinessLogic
 {
@@ -23,5 +24,14 @@ namespace Gestor_Torneos.Logica.BusinessLogic
         {
             return EquipoDAO.EliminarEquipo(id);
         }
+        public static List<Equipo> ObtenerPorTorneo(int torneoId)
+        {
+            return EquipoDAO.ObtenerPorTorneo(torneoId);
+        }
+        public static List<Equipo> ObtenerTodos()
+        {
+            return EquipoDAO.ObtenerTodos();
+        }
+
     }
 }

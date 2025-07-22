@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Gestor_Torneos.Pages.Torneos
+namespace Gestor_Torneos.Pages.Partidos
 {
 
 
-    public partial class AsignarATorneo
+    public partial class Agendar
     {
 
         /// <summary>
@@ -24,39 +24,48 @@ namespace Gestor_Torneos.Pages.Torneos
         protected global::System.Web.UI.WebControls.DropDownList ddlTorneos;
 
         /// <summary>
-        /// Control ddlEquipos.
+        /// Control ddlEquipo1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEquipos;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEquipo1;
 
         /// <summary>
-        /// Control btnAsignar.
+        /// Control ddlEquipo2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAsignar;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEquipo2;
 
         /// <summary>
-        /// Control lblMensaje.
+        /// Control txtFecha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMensaje;
+        protected global::System.Web.UI.WebControls.TextBox txtFecha;
 
         /// <summary>
-        /// Control gvAsignados.
+        /// Control btnAgendar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvAsignados;
+        protected global::System.Web.UI.WebControls.Button btnAgendar;
+
+        /// <summary>
+        /// Control gvPartidos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvPartidos;
     }
 }

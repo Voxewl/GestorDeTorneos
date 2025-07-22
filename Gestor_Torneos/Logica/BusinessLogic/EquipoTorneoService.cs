@@ -1,4 +1,6 @@
 ﻿using Gestor_Torneos.Logica.DataAccess;
+using Gestor_Torneos.Logica.Models;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Gestor_Torneos.Logica.BusinessLogic
@@ -19,5 +21,10 @@ namespace Gestor_Torneos.Logica.BusinessLogic
             EquipoTorneoDAO.Asignar(equipoId, torneoId);
             return "Equipo asignado correctamente.";
         }
+        public static List<Equipo> ObtenerTodos()
+        {
+            return EquipoDAO.ObtenerTodos();
+        }
+
     }
 }

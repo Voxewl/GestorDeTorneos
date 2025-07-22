@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Registrar Partido" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registrar.aspx.cs" Inherits="Gestor_Torneos.Pages.Partidos.Registrar" %>
+﻿<%--<%@ Page Title="Registrar Partido" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registrar.aspx.cs" Inherits="Gestor_Torneos.Pages.Partidos.Registrar" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="text-center text-white mb-4">
@@ -46,4 +46,4 @@
             SelectCommand="SELECT ID_Partido, Equipo1, Equipo2, Fecha FROM vw_PartidosResumen">
         </asp:SqlDataSource>
     </div>
-</asp:Content>
+</asp:Content>--%>

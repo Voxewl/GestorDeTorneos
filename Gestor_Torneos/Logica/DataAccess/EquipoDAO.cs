@@ -32,11 +32,12 @@ namespace Gestor_Torneos.Logica.DataAccess
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = @"UPDATE Equipos SET Nombre = @Nombre, FechaActualizada = @FechaActualizada
+                string query = @"UPDATE Equipos 
+                                 SET Nombre = @Nombre, FechaActualiza = @FechaActualiza
                                  WHERE ID_Equipo = @ID_Equipo";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@Nombre", equipo.Nombre);
-                cmd.Parameters.AddWithValue("@FechaActualizada", equipo.FechaActualiza);
+                cmd.Parameters.AddWithValue("@FechaActualiza", equipo.FechaActualiza);
                 cmd.Parameters.AddWithValue("@ID_Equipo", equipo.ID_Equipo);
 
                 conn.Open();
@@ -66,10 +67,11 @@ namespace Gestor_Torneos.Logica.DataAccess
             List<Equipo> equipos = new List<Equipo>();
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT ID_Equipo, Nombre, FechaCreacion, FechaActualizada FROM Equipos";
+                string query = "SELECT ID_Equipo, Nombre, FechaCreacion, FechaActualiza FROM Equipos";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
+
                 while (reader.Read())
                 {
                     equipos.Add(new Equipo
@@ -77,10 +79,42 @@ namespace Gestor_Torneos.Logica.DataAccess
                         ID_Equipo = (int)reader["ID_Equipo"],
                         Nombre = reader["Nombre"].ToString(),
                         FechaCreacion = Convert.ToDateTime(reader["FechaCreacion"]),
-                        FechaActualiza = Convert.ToDateTime(reader["FechaActualizada"])
+                        FechaActualiza = reader["FechaActualiza"] != DBNull.Value
+                            ? Convert.ToDateTime(reader["FechaActualiza"])
+                            : DateTime.MinValue
                     });
                 }
             }
+            return equipos;
+        }
+
+        public static List<Equipo> ObtenerPorTorneo(int torneoId)
+        {
+            List<Equipo> equipos = new List<Equipo>();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = @"
+                    SELECT e.ID_Equipo, e.Nombre 
+                    FROM Equipos e
+                    INNER JOIN EquipoTorneo et ON et.ID_Equipo = e.ID_Equipo
+                    WHERE et.ID_Torneo = @TorneoId";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@TorneoId", torneoId);
+                conn.Open();
+
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    equipos.Add(new Equipo
+                    {
+                        ID_Equipo = (int)reader["ID_Equipo"],
+                        Nombre = reader["Nombre"].ToString()
+                    });
+                }
+            }
+
             return equipos;
         }
     }

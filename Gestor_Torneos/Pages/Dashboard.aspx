@@ -50,7 +50,8 @@
                     <div class="card-body text-center">
                         <i class="bi bi-controller display-4 mb-3"></i>
                         <h5 class="card-title">Partidos</h5>
-                        <a href="Partidos/Registrar.aspx" class="btn btn-primary btn-sm mt-2">Registrar</a>
+                        <a href="Partidos/Agendar.aspx" class="btn btn-primary btn-sm mt-2">Agendar</a>
+                        <a href="Partidos/Registrar.aspx" class="btn btn-primary btn-sm mt-2">Registrar marcador</a>
                     </div>
                 </div>
             </div>

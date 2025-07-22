@@ -15,15 +15,6 @@ namespace Gestor_Torneos.Pages.Torneos
     {
 
         /// <summary>
-        /// Control ltlMensaje.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltlMensaje;
-
-        /// <summary>
         /// Control txtNombreTorneo.
         /// </summary>
         /// <remarks>
@@ -39,7 +30,43 @@ namespace Gestor_Torneos.Pages.Torneos
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaInicio;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtFechaInicio;
+
+        /// <summary>
+        /// Control txtFechaFin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtFechaFin;
+
+        /// <summary>
+        /// Control txtDescripcionTorneo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcionTorneo;
+
+        /// <summary>
+        /// Control ddlTipoTorneo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipoTorneo;
+
+        /// <summary>
+        /// Control SqlDataSourceDDLTipoTorneo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceDDLTipoTorneo;
 
         /// <summary>
         /// Control btnRegistrarTorneo.
@@ -51,6 +78,15 @@ namespace Gestor_Torneos.Pages.Torneos
         protected global::System.Web.UI.WebControls.Button btnRegistrarTorneo;
 
         /// <summary>
+        /// Control sdsTorneos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource sdsTorneos;
+
+        /// <summary>
         /// Control gvTorneos.
         /// </summary>
         /// <remarks>
@@ -60,12 +96,12 @@ namespace Gestor_Torneos.Pages.Torneos
         protected global::System.Web.UI.WebControls.GridView gvTorneos;
 
         /// <summary>
-        /// Control SqlDataSourceTorneos.
+        /// Control sdsTiposTorneo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceTorneos;
+        protected global::System.Web.UI.WebControls.SqlDataSource sdsTiposTorneo;
     }
 }
